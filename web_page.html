@@ -4,7 +4,8 @@
         <title>Ojo</title>
         <style>
             html {
-                margin: 8px;
+                margin: 20px;
+                font-family: sans-serif;
             }
             .header {
                 background-color: white;
@@ -43,7 +44,7 @@
                 align-self: center;
             }
             .menu1 ul li a:hover {
-                border-bottom: rgb(128, 252, 211) 10px solid;
+                border-bottom: rgb(95, 247, 196) 10px solid;
             }
 
             .halfspiral {
@@ -74,11 +75,6 @@
                 margin: 20px 10px;
                 background-color: white;
             }
-
-            .ojoproud {
-                height: 125px;
-                width: 250px;
-            }
             
             .girl1 {
                 height: 325px;
@@ -89,19 +85,114 @@
                 color: rebeccapurple;
             }
 
+            .top {
+                display: flex;
+            }
+
             .paragraph-1 {
                 color: gray;
-                padding: 5px;
-                padding-left: 400px;
-                text-indent: 10px;
+                font-size: large;
                 line-height: 1.5;
+                padding: 50px 32px 25px 75px;
             }
 
             .paragraph-2 {
                 color: gray;
-                padding: 5px;
-                padding-left: 400px;
+                font-size: 15px;
+                padding: 0px 28px 12px 99px;
             }
+
+            .paragraph-3 {
+                font-size: 22px;
+                padding: 20px 20px 0px 75px;
+            }
+
+            h2 {
+                font-family: sans-serif;
+                font-size: 1.1rem;
+                padding-left: 100px;
+            }
+
+            .proud {
+                font-size: 2.5rem;
+                padding-top: 10px;
+                color:rgb(95, 247, 196);
+                display: block;
+                
+            }
+
+            .second {
+                background-color: rgb(71, 11, 128);
+                display: flex;
+            }
+
+            .codeh {
+                font-family: sans-serif;
+                font-size: 1.1rem;
+                color: white;
+                padding-left: 100px;
+                padding-top: 65px;
+            }
+
+            .code {
+                font-size: 2.5rem;
+                padding-top: 10px;
+                color:white;
+                display: block;
+            }
+
+            .theysay {
+                font-size: 1.1rem;
+                padding-top: 60px;
+                padding-left: 132px;
+                color: white;
+                display: block;
+            }
+
+            .container1 {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .ojoway {
+                font-size: 1.1rem;
+                padding-top: 61px;
+                padding-left: 28px;
+                color: white;
+                display: block;
+            }
+
+            .foundh {
+                font-family: sans-serif;
+                font-size: 1.1rem;
+                color:black;
+                padding-left: 100px;
+                padding-top: 65px;
+            }
+
+            .found {
+                font-size: 2.5rem;
+                padding-top: 10px;
+                color:rgb(71, 11, 128);
+                display: block;
+            }
+
+            .paragraph-4{
+                display:flex;
+
+            }
+
+            .girl2 {
+                height: 325px;
+                width: 350px;  
+            }
+
+            .guy {
+                height: 325px;
+                width: 350px;  
+            }
+
+            
 
 
         </style>
@@ -118,8 +209,8 @@
     
             <nav class="menu1">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About </a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
                 </ul>
             
               <img class="halfspiral" src="halfsprial.png">
@@ -128,88 +219,107 @@
               <button name="button">Join Now</button>
         </header> 
 
-        <section class="top">
+        <div class="top">
 
-            <img class="ojoproud" src="ojoproud.png">
+            <div class="left1">
+                <!-- <img class="ojoproud" src="ojoproud.png.s" alt="proud"> -->
+                <h2>OJO<span class="proud">Proud.</span></h2>
+                <img class="girl1" src="girl.png">
+            </div>
+
+            <div class="paragraphs1">
+                <div class="paragraph-1">
+                    We're for the <span class="word"><strong>dreamers</strong></span> - the generation
+                    who'll use new tools to fix old systems. We're for getting ahead with
+                    real world experience - because you dared to be <span class="word"><strong>inspired</strong></span>
+                    by a world you knew was out there. We're for learning from the 
+                    <span class="word"><strong>doers</strong></span> - not the talkers.
+                </div>
+
+                <div class="paragraph-2">
+                    We're for never having to do it alone - because we know how
+                    bad it feels to start out lost.
+                </div>
+
+                <div class="paragraph-3"><strong>
+                    And we know how good it feels to find your Ojo.</strong>
+                </div>
+            </div>
             
-            <p class="paragraph-1">
-                We're for the <span class="word"><strong>dreamers</strong></span> - the generation
-                who'll use new tools to fix old systems. We're for getting ahead with
-                real world experience - because you dared to be <span class="word"><strong>inspired</strong></span>
-                by a world you knew was out there. We're for learning from the 
-                <span class="word"><strong>doers</strong></span> - not the talkers.
-            </p>
+        </div>
 
-            <p class="paragraph-2">
-                We're for never having to do it alone - because we know how
-                bad it feels to start out lost.
-            </p>
-
-            <p class="paragraph-3">
-                And we know how good it feels to find your Ojo.
-            </p>
-
-            <img class="girl1" src="girl.png">
-        </section>
-
-        <!-- <section class="second">
-
-            <h3>OJO</h3>
-            <h2>Code.</h2>
-
-            <h3>THEY SAY</h3>
-
-            <div class="they-say">
-                <div class="they-say">Everyone is your competition.</div>
-                <div class="they-say">You call that a real job?</div>
-                <div class="they-say">Why can't you be more like...</div>
-                <div class="they-say">Only who you know counts.</div>
-                <div class="they-say">You should know the already.</div>
+        <div class="second">
+            <div>
+                <h2 class="codeh">OJO<span class="code">Code.</span></h2>
             </div>
 
-            <h3>THE OJO WAY</h3>
-
-            <div class="the-ojo-way">
-                <div class="the-ojo-way">We're stronger togerther 🙏</div>
-                <div class="the-ojo-way">Follow your passion 🔥</div>
-                <div class="the-ojo-way">Trust the process, love your journey ❤️</div>
-                <div class="the-ojo-way">Nothing succeeds like talent 👍</div>
-                <div class="the-ojo-way">Just ask - No question is a stupid question 👌</div>
+            <div class="theysay">
+                <h3>THEY SAY</h3>
             </div>
 
-        </section>
+            <div class="container1">
+                <div class="spot">Everyone is your competition.</div>
+                <div class="spot">You call that a real job?</div>
+                <div class="spot">Why can't you be more like...</div>
+                <div class="spot">Only who you know counts.</div>
+                <div class="spot">You should know the already.</div>
+            </div>
 
-        <section class="third">
-            <h3>OJO</h3>
-            <h1>Found us.</h1>
 
-            <p class="paragraph-4">
-                We started out just like you, helped friends and family
-                just like you, then built Ojo for you.
-            </p>
+            <div class="ojoway">
+                <h3>THE OJO WAY</h3>
+            </div>
+            
+            <div class="container2">
+                <div class="spot2">We're stronger togerther 🙏</div>
+                <div class="spot2">Follow your passion 🔥</div>
+                <div class="spot2">Trust the process, love your journey ❤️</div>
+                <div class="spot2">Nothing succeeds like talent 👍</div>
+                <div class="spot2">Just ask - No question is a stupid question 👌</div>
+            </div> 
 
-            <img class="girl 2" src="girl_2.png">
-            <h4>Zainab</h4>
-            <p class="girl-bio">
-                To found Ojo, Zainab gave up being Principal Consultant and 
-                Center of Excellence lead in Learning Transformation Programmes
-                for IBM's Talent and Transformation practice in London, UK.
-            </p>
-            <a href="#">Read more</a>
+        </div>
 
-            <img class="guy" src="guy.png">
-            <h4>Kenan</h4>
-            <p class="guy-bio">
-                Kenan has over six years' experience of working as a recruiter
-                with FTSE companies, SME's and start-ups, helping them navigate
-                through technology-driven transformation and change, M&A and strategic/
-                organic growth.
-            </p>
-            <a href="#">Read more</a>
 
-        </section>
+        <div class="third">
 
-        <section class="last">
+            <div class="left2">
+                <h2 class="foundh">OJO<span class="found">Found.</span></h2>
+                
+
+                <div class="paragraph-4">
+                    We started out just like you, helped friends and family
+                    just like you, then built Ojo for you.
+                </div>
+
+                <img class="girl2" src="girl_2.png">
+
+                <h4>Kenan</h4>
+                <div class="guy-bio">
+                    Kenan has over six years' experience of working as a recruiter
+                    with FTSE companies, SME's and start-ups, helping them navigate
+                    through technology-driven transformation and change, M&A and strategic/
+                    organic growth.
+                </div>
+                <a href="#">Read more</a>
+
+            </div>
+            
+            <div class="right2">
+
+                <h4>Zainab</h4>
+                <div class="girl-bio">
+                    To found Ojo, Zainab gave up being Principal Consultant and 
+                    Center of Excellence lead in Learning Transformation Programmes
+                    for IBM's Talent and Transformation practice in London, UK.
+                </div>
+                <a href="#">Read more</a>
+
+                <img class="guy" src="guy.png">
+
+        </div>
+
+        <!-- <section class="last">
             <h1>We're always working with</h1>
 
             <a href="#">
