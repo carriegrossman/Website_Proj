@@ -1,37 +1,143 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Web Page</title>
+        <title>Ojo</title>
+        <style>
+            html {
+                margin: 8px;
+            }
+            .header {
+                background-color: white;
+                display: flex;
+                justify-content: center;
+
+            }
+
+            .logo {
+                height: 35px;
+                width: 85px;
+                padding-left: 50px;
+                padding-top: 15px;
+                align-self: flex-start;
+            }
+
+            .menu1 {
+                padding-left: 60px;
+                padding-right: 80px;
+                list-style: none;
+                background:white;
+                display: flex;
+                align-self: flex-start;
+            }
+
+            .menu1 ul li {
+                display: inline-block;
+                
+            }
+
+            .menu1 ul li a {
+                display: block;
+                padding: 10px 25px;
+                color:black;
+                text-decoration: none;
+                align-self: center;
+            }
+            .menu1 ul li a:hover {
+                border-bottom: rgb(128, 252, 211) 10px solid;
+            }
+
+            .halfspiral {
+                height: 60px;
+                width: 150px;
+                padding-right: 50px;
+                padding-left: 50px;
+                margin-top: 15px;
+                align-self: center;
+                display: inline-block;
+            }
+
+            button {
+                display: inline-block;
+                margin-top: 15px ;
+                height: 35px;
+                width: 85px;
+                background: white;
+                border: thin 5px;
+                border-radius: 5px;
+            }
+            button:hover {
+                background-color: rebeccapurple;
+                color:white;
+            }
+
+            .top {
+                margin: 20px 10px;
+                background-color: white;
+            }
+
+            .ojoproud {
+                height: 125px;
+                width: 250px;
+            }
+            
+            .girl1 {
+                height: 325px;
+                width: 350px;  
+            }
+
+            span.word {
+                color: rebeccapurple;
+            }
+
+            .paragraph-1 {
+                color: gray;
+                padding: 5px;
+                padding-left: 400px;
+                text-indent: 10px;
+                line-height: 1.5;
+            }
+
+            .paragraph-2 {
+                color: gray;
+                padding: 5px;
+                padding-left: 400px;
+            }
+
+
+        </style>
     </head>
 
-    <header class="header">
-        <img class="logo" src="logo.png" alt="logo">
-
-        <nav class="menu">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-            </ul>
-          </nav>
-        
-          <img class="half circle" src="halfsprial.png">
-
-          <button name="button1">Log in</button>
-          <button name="button2">Join now</button>
-
-    </header> 
-
     <body>
+        <header class="header">
+            <a href="#">
+                <img src="logo.png" 
+                alt="Logo" 
+                width=""
+                class="logo">
+                </a>
+    
+            <nav class="menu1">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About </a></li>
+                </ul>
+            
+              <img class="halfspiral" src="halfsprial.png">
+    
+              <button name="button">Log In</button>
+              <button name="button">Join Now</button>
+        </header> 
+
         <section class="top">
-            <h3>OJO</h3>
-            <h1>Proud.</h1>
+
+            <img class="ojoproud" src="ojoproud.png">
             
             <p class="paragraph-1">
-                We're for the <span class="word">dreamers</span> - the generation
+                We're for the <span class="word"><strong>dreamers</strong></span> - the generation
                 who'll use new tools to fix old systems. We're for getting ahead with
-                real world experience - because you dared to be <span class="word">inspired</span>
+                real world experience - because you dared to be <span class="word"><strong>inspired</strong></span>
                 by a world you knew was out there. We're for learning from the 
-                <span class="word">doers</span> - not the talkers.
+                <span class="word"><strong>doers</strong></span> - not the talkers.
             </p>
 
             <p class="paragraph-2">
@@ -43,13 +149,13 @@
                 And we know how good it feels to find your Ojo.
             </p>
 
-            <img class="girl picture" src="girl.png">
+            <img class="girl1" src="girl.png">
         </section>
 
-        <section class="second">
+        <!-- <section class="second">
 
             <h3>OJO</h3>
-            <h1>Code.</h1>
+            <h2>Code.</h2>
 
             <h3>THEY SAY</h3>
 
@@ -106,25 +212,37 @@
         <section class="last">
             <h1>We're always working with</h1>
 
-            <img class="logos" src="logos.png">
+            <a href="#">
+                <img src="logos.png" 
+                alt="Logos" 
+                width=""
+                class="logos">
+                </a>
 
             <p class="paragraph-5">
                 Nobody does it alone. Our partners are pretty cool.
             </p>
         </section>
+
+        <footer class="footer">
+
+            <a href="#">
+                <img src="logo2.png" 
+                alt="Logo2" 
+                width=""
+                class="logo2">
+                </a>
+    
+           <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About </a></li>
+                </ul>
+    
+              
+    
+        </footer> -->
+
     </body>
-    <footer class="footer">
-        <img class="logo2" src="logo2.png" alt="logo2">
-
-        <nav class="menu2">
-            <ul>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-          </nav>
-
-          
-
-    </footer>
 </html>
+
