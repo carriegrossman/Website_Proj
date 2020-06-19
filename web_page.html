@@ -4,7 +4,8 @@
         <title>Ojo</title>
         <style>
             html {
-                margin: 20px;
+                margin: 10px;
+                border: white solid 10px;
                 font-family: sans-serif;
             }
             .header {
@@ -122,8 +123,8 @@
             }
 
             .ojocode {
-                height: 500px;
-                width: 1100px;
+                height: 461px;
+                width: 961px;
             }
 
             /* .second {
@@ -182,17 +183,6 @@
                 display: block;
             }
 
-            .third {
-                display: flex;
-            }
-
-            .paragraph-4{
-                padding-left: 400px;
-                display: flex;
-                flex-direction: ;
-
-            }
-
             .girl2 {
                 height: 325px;
                 width: 350px;  
@@ -200,7 +190,106 @@
 
             .guy {
                 height: 325px;
-                width: 350px;  
+                width: 350px;
+                padding-right: 47px;  
+            }
+
+            .paragraph-4 {
+                padding-left: 395px;
+                padding-bottom: 15px;
+                font-size: 1.3rem;
+            }
+
+            .bio1 {
+                display: flex;
+            }
+
+            .girl-bio {
+                padding: 10px 153px 0px 163px;
+            }
+
+            .bio2 {
+                display: flex;
+            }
+
+            .guy-bio {
+                padding: 36px 222px 0px 75px;
+            }
+
+            .name1 {
+                font-size: 1.3rem;
+            }
+
+            .last {
+                display:flex;
+                padding-bottom: 55px;
+            }
+
+            .logos {
+                height: 350px;
+                width: 500px;
+                padding-top: 25px;
+            }
+
+            .first {
+                font-size: 50px;
+                padding-top: 119px;
+                padding-right: 150px;
+                padding-left: 40px;
+            }
+
+            .second {
+                padding-left: 15px;
+                padding-right: 151px;
+            }
+
+            .footer {
+                background-color:rgb(71, 11, 128);
+                display: flex;
+                justify-content:space-around
+                
+            }
+
+            .logo2 {
+                height: 35px;
+                width: 85px;
+                padding-top: 9px;
+                align-self: flex-start;
+
+            }
+
+            .nav2 {
+                list-style: none;
+                background-color:(71, 11, 128);
+                color: white;
+                display: flex;
+                align-self: center;
+            }
+
+            .nav2 ul li {
+                display: inline-block;
+                
+            }
+
+            .nav2 ul li a {
+                display: block;
+                padding: 10px 25px;
+                color:white;
+                text-decoration: none;
+                align-self: center;
+            }
+            .nav2 ul li a:hover {
+                background-color:white;
+                color: black;
+            }
+            .socialmedia {
+                padding-top: 16px;
+            }
+            
+
+            .icon {
+                height: 30px;
+                width: 30px;
             }
 
 
@@ -296,75 +385,98 @@
 
 
         <div class="third">
-
-            <div class="left2">
-                <h2 class="foundh">OJO<span class="found">Found.</span></h2>
+            <div class="introp">
+                <div class="left2">
+                    <h2 class="foundh">OJO<span class="found">Found.</span></h2>
+                </div>
 
                 <div class="paragraph-4"><strong>
                     We started out just like you, helped friends and family
                     just like you, then built Ojo for you.</strong>
                 </div>
-
-                <img class="girl2" src="girl_2.png">
-
-                <h4>Kenan</h4>
-                <div class="guy-bio">
-                    Kenan has over six years' experience of working as a recruiter
-                    with FTSE companies, SME's and start-ups, helping them navigate
-                    through technology-driven transformation and change, M&A and strategic/
-                    organic growth.
-                </div>
-                <a href="#">Read more</a>
-
             </div>
-            
-            <!-- <div class="right2">
 
-                <h4>Zainab</h4>
-                <div class="girl-bio">
-                    To found Ojo, Zainab gave up being Principal Consultant and 
-                    Center of Excellence lead in Learning Transformation Programmes
-                    for IBM's Talent and Transformation practice in London, UK.
+
+                <div class="bio1">
+                    <img class="girl2" src="girl_2.png">
+
+                    
+                    <div class="girl-bio">
+                        <h4 class="name1">Zainab</h4>
+                        To found Ojo, Zainab gave up being Principal Consultant and 
+                        Center of Excellence lead in Learning Transformation Programmes
+                        for IBM's Talent and Transformation practice in London, UK.
+                        <a href="#" class="readmore">Read more</a>
+                    </div>
                 </div>
-                <a href="#">Read more</a>
 
-                <img class="guy" src="guy.png"> -->
+                <div class="bio2">
+                    
+                    <div class="guy-bio">
+                        <h4 class="name1">Kenan</h4>
+                        Kenan has over six years' experience of working as a recruiter
+                        with FTSE companies, SME's and start-ups, helping them navigate
+                        through technology-driven transformation and change, M&A and strategic/
+                        organic growth.
+                        <a href="#" class="readmore2">Read more</a>
+                    </div>
+                    <img class="guy" src="guy.png">
 
+                </div>
+                                   
         </div>
 
-        <!-- <section class="last">
-            <h1>We're always working with</h1>
 
-            <a href="#">
-                <img src="logos.png" 
-                alt="Logos" 
-                width=""
-                class="logos">
-                </a>
+        <div class="last">
+            <div class="words">
+                <div class="first">
+                    <span class="first"><strong>We're always working with</strong></span>
+                </div>
 
-            <p class="paragraph-5">
-                Nobody does it alone. Our partners are pretty cool.
-            </p>
-        </section>
+                <div class="second">
+                    <span class="second">Nobody does it alone. Our partners are pretty cool.</span>
+                </div>
+            </div>
+
+            <div class="logos">
+                <a href="#">
+                    <img src="logos.png" 
+                    alt="Logos" 
+                    width=""
+                    class="logos">
+                    </a>
+            </div>
+
+        </div>
+                
+
 
         <footer class="footer">
+            <div class="logo2">
+                <a href="#">
+                    <img src="logo2.png" 
+                    alt="Logo2" 
+                    width=""
+                    class="logo2">
+                    </a>
+            </div>
+        
+            <div class="nav2">
+                <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About </a></li>
+                        </ul>
+            </div>
 
-            <a href="#">
-                <img src="logo2.png" 
-                alt="Logo2" 
-                width=""
-                class="logo2">
-                </a>
+            <div class="socialmedia">
+                <img class="icon" src="icons8-fb.png">
+                <img class="icon" src="icons8-ig.png">
+                <img class="icon" src="icons8-tw.png">
+            </div>
     
-           <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About </a></li>
-                </ul>
     
-              
-    
-        </footer> -->
+        </footer>
 
     </body>
 </html>
